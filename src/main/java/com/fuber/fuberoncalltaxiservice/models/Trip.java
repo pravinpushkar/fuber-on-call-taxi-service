@@ -11,7 +11,7 @@ enum TRIP_STATUS {
 @Getter
 public class Trip {
 	private Customer customer;
-	private Cab cab;
+	private Taxi taxi;
 	private double totalfare;
 	private Location source;
 	private Location destination;
@@ -19,12 +19,12 @@ public class Trip {
 	
 	public Trip(
 			@NonNull Customer customer,
-			@NonNull Cab cab,
+			@NonNull Taxi cab,
 			@NonNull double totalfare,
 			@NonNull Location source,
 			@NonNull Location destination) {
 		
-		this.cab = cab;
+		this.taxi = cab;
 		this.customer = customer;
 		this.totalfare = totalfare;
 		this.source = source;

@@ -1,13 +1,13 @@
 package com.fuber.fuberoncalltaxiservice.exceptions;
 
-public class CabsNotAvailable extends Exception {
+public class TaxiAlreadyCreated extends Exception {
 
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
 	
-	public CabsNotAvailable(String message) {
+	public TaxiAlreadyCreated(String message) {
 		super(message);
 	}
 
