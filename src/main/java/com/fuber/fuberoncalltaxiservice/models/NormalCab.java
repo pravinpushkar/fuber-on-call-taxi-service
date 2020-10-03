@@ -1,6 +1,6 @@
 package com.fuber.fuberoncalltaxiservice.models;
 
-import com.fuber.fuberoncalltaxiservice.CAB_TYPE;
+import com.fuber.fuberoncalltaxiservice.enus.CAB_TYPE;
 
 import lombok.Getter;
 
