@@ -6,10 +6,10 @@ import lombok.Getter;
 @Getter
 @AllArgsConstructor
 public class Location {
-	private double x;
-	private double y;
+	private double xcord;
+	private double ycord;
 	
 	public double distance(Location loc) {
-		return Math.sqrt(Math.pow(loc.x-this.x, 2) + Math.pow(loc.y-this.y, 2));
+		return Math.sqrt(Math.pow(loc.xcord-this.xcord, 2) + Math.pow(loc.ycord-this.ycord, 2));
 	}
 }
