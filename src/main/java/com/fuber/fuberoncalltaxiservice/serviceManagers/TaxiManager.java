@@ -2,6 +2,7 @@ package com.fuber.fuberoncalltaxiservice.serviceManagers;
 
 import java.util.HashMap;
 import java.util.List;
+import java.util.concurrent.ConcurrentHashMap;
 
 import org.springframework.stereotype.Component;
 
@@ -14,8 +15,7 @@ import lombok.NonNull;
 
 @Component
 public class TaxiManager {
-	HashMap<String, Taxi> taxiStore = new HashMap<String, Taxi>();
-	
+	ConcurrentHashMap<String, Taxi> taxiStore = new ConcurrentHashMap<String, Taxi>();
 	public int registerTaxi(@NonNull Taxi taxi) throws TaxiAlreadyCreated {
 		if(taxiStore.containsKey(taxi.getId())) {
 			throw new TaxiAlreadyCreated("Gievn Taxi id is already created");
