@@ -13,4 +13,6 @@ curl -X POST http://localhost:8080/update/taxilocation/taxiId/2/xcord/0/ycord/0
 
 curl -X POST http://localhost:8080/book/trip/x1/0/y1/0/x2/2/y2/2
 
+curl -X POST http://localhost:8080/update/trip/endtrip/taxiId/1
+
 ```
