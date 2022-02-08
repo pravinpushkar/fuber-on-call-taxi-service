@@ -2,7 +2,7 @@
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpravinpushkar%2Ffuber-on-call-taxi-service.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpravinpushkar%2Ffuber-on-call-taxi-service?ref=badge_shield)
 
 
-# Execute below commands to test the taxi registration and booking
+# Execute below commands to test the taxi registration and bookings
 
 ```
 
